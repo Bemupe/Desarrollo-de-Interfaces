@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>Menu_inicial</class>
+ <widget class="QMainWindow" name="Menu_inicial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>345</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>402</width>
+    <height>345</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>402</width>
+    <height>345</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>411</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>recursos/construcion_png.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botonNuevaReforma">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>130</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Iniciar nueva reforma</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+;</string>
+    </property>
+    <property name="text">
+     <string>NUEVA REFORMA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>402</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGestionar_Reformas">
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Opciones</string>
+    </property>
+    <property name="title">
+     <string>Gestionar Reformas</string>
+    </property>
+    <addaction name="actionNueva_Reforma"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <addaction name="menuGestionar_Reformas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNueva_Reforma">
+   <property name="text">
+    <string>Nueva Reforma</string>
+   </property>
+   <property name="toolTip">
+    <string>Iniciar nueva reforma</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>botonNuevaReforma</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
