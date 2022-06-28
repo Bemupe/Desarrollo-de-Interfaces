@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<toc version="1.0">
+    <tocitem text="Sistema de Ayuda" target="ayuda_hotel">
+        <tocitem text="Informe sobre duración y número de reservas de habitaciones" target="ayuda_reservas"/>    
+    </tocitem>
+</toc>
+
