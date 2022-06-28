@@ -1,0 +1,3 @@
+Los dos proyectos están elaborados con JDK 16.
+La carpeta "Carpeta_Proyectos", contiene los proyectos ProgressBarExtended y la Prueba.
+La carpeta "Prueba para ejecutar bajo Windows", contiene la prueba ejecutable en windows.
